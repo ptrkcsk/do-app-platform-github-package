@@ -1,6 +1,6 @@
 This is a freshly-generated Express app which depends on an npm package hosted on GitHub Packages.
 
-# Local test procedure
+## Local test procedure
 
 1. Install dependencies from a clean slate
     ```sh
@@ -41,7 +41,7 @@ This is a freshly-generated Express app which depends on an npm package hosted o
    ...
    ```
 
-# Digital Ocean App Platform test procedure
+## Digital Ocean App Platform test procedure
 
 1. Deploy to Digital Ocean
 
