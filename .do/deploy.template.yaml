@@ -1,0 +1,11 @@
+spec:
+  name: do-app-platform-github-package
+  services:
+    - name: app
+      git:
+        branch: main
+        repo_clone_url: https://github.com/ptrkcsk/do-app-platform-github-package.git
+      envs:
+        - key: GITHUB_TOKEN
+          value: '{{token}}'
+          type: SECRET
