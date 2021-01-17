@@ -8,5 +8,5 @@ spec:
       build_command: npm run create-npmrc
       envs:
         - key: GITHUB_TOKEN
-          value: '{{token}}'
+          value: ''
           type: SECRET
