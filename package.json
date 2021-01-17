@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "create-npmrc": "node ./scripts/create-npmrc",
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@codertocat/hello-world-npm": "^1.0.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
