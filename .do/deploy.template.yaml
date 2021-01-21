@@ -5,7 +5,6 @@ spec:
       git:
         branch: main
         repo_clone_url: https://github.com/ptrkcsk/do-app-platform-github-package.git
-      build_command: npm run create-npmrc
       envs:
         - key: GITHUB_TOKEN
           value: ''
